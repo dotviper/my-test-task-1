@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "servo": "nodemon --trace-warnings index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^2.0.22",
+    "sqlite3": "^5.1.6",
+    "telegraf": "^4.12.2",
+    "winston": "^3.9.0"
+  }
+}
